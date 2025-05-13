@@ -172,3 +172,19 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment secrets
+.env
+
+# Tableau
+*.twb~
+*.twbx~
